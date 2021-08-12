@@ -1,0 +1,15 @@
+package filaatendimento;
+
+import java.util.Scanner;
+
+public class FilaAtendimento {
+	private Scanner scanner = new Scanner();
+	
+	public void iniciar() {
+		
+
+	
+
+	}
+
+}

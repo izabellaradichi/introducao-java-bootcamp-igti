@@ -1,0 +1,9 @@
+package entidades;
+
+public class Aluno {
+	private String nome;
+	private Integer cpf;
+	private String telefone;
+	private String endereco;
+	private Integer matricula;
+}

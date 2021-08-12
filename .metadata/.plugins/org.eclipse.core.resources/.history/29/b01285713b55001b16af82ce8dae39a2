@@ -1,0 +1,95 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+/* 1 - inserir cliente na fila de atendimento
+ * 2 - remover cliente da fila de atendimento 
+ * 3 - mostrar fila de atendimentos*/
+
+public class FilaAtendimento {
+
+	public static void main(String[] args) {
+		Queue<String> filaAtendimento = new LinkedList<>();
+	}		
+		private String mostrarMenu() {
+			StringBuilder sb = new StringBuilder();
+			sb.append("***FILA DE ATENDIMENTO*** \n");
+			sb.append("Digite o comando desejado: \n");
+			sb.append("1 - inserir cliente na fila de atendimento  \n");
+			sb.append("2 - remover cliente da fila de atendimento  \n");
+			sb.append("3 - mostrar fila de atendimentos \n");
+			sb.append("4 - sair \n");
+			System.out.println(sb.toString());	
+			
+		return scanner.nextLine();
+		}
+			
+		public void iniciar() {
+			String opcao = mostrarMenu();
+			while (!opcao.equals("4")) {
+				switch (opcao) {
+				case "1":
+					System.out.println("Digite o nome do cliente para inserir na fila de atendimento: ");
+					String item = scanner.nextLine();
+					fila.add(cliente);
+					System.out.println(lista);
+					opcao = mostrarMenu();			
+					break;
+				case "2":
+					System.out.println("Digite o indice do cliente para remover da fila de atendimento: ");
+					int indice = Integer.valueOf(scanner.nextLine());
+					fila.remove(indice);
+					System.out.println(lista);
+					opcao = mostrarMenu();					
+					break;	
+				case "3":
+					System.out.println(fila);
+					opcao = mostrarMenu();			
+					break;
+				default:
+					System.out.println("Opção inválida.");
+					opcao = mostrarMenu();
+				}
+			}
+			scanner.close();
+		}	
+	}
+}
+		
+		/*adicionando elementos na fila
+		fila.add("Pessoa 1");
+		fila.add("Pessoa 2");
+		fila.add("Pessoa 3");
+		fila.add("Pessoa 4");
+		fila.add("Pessoa 5");
+		
+		System.out.println(fila);
+		
+		//removendo elemento da fila
+		System.out.println("Elemento removido: " + fila.remove());
+		
+		System.out.println(fila);
+		
+		//verificar primeiro elemento da fila sem remover
+		System.out.println("Elemento verificado: " + fila.peek());
+		
+		System.out.println(fila);
+		
+		//procurar elemento na fila
+		System.out.println(fila.contains("Pessoa 7"));
+		
+		//retornar tamanho da fila
+		System.out.println("Tamanho: " + fila.size());
+		
+		//remove todos os elementos
+		//fila.clear();
+		
+		//System.out.println(fila);
+		
+		//System.out.println("Limpeza da fila feita com sucesso.");
+		
+		//verificar se a fila está vazia ou não
+		System.out.println("Fila está vazia? " + fila.isEmpty());*/
+		
+	
+	}
+}

@@ -1,0 +1,28 @@
+package filaatendimento;
+
+import java.util.Queue;
+import java.util.Scanner;
+
+public class FilaAtendimento {
+	private Scanner scanner = new Scanner(System.in);
+	private Queue<String> fila = new LinkedList<>();
+	
+	private String mostrarMenu() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("***FILA DE ATENDIMENTO*** \n");
+		sb.append("Digite o comando desejado: \n");
+		sb.append("1 - inserir cliente na fila de atendimento  \n");
+		sb.append("2 - remover cliente da fila de atendimento  \n");
+		sb.append("3 - mostrar fila de atendimentos \n");
+		sb.append("4 - sair \n");
+		System.out.println(sb.toString());	
+	
+	
+	public void iniciar() {
+		
+
+	
+
+	}
+
+}

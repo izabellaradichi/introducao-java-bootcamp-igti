@@ -1,0 +1,9 @@
+package entidades;
+
+public class Professor {
+	private String nome;
+	private String cpf;
+	private String telefone;
+	private String endereco;
+	private Date dataAdmissao;
+}

@@ -1,0 +1,11 @@
+package filaatendimento;
+
+public class FilaAtendimento {
+	public void iniciar() {
+		
+
+	
+
+	}
+
+}

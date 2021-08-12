@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+import entidades.Aluno;
+
+public class Controle {
+	private ArrayList<Aluno> alunos = new ArrayList<>();
+	private ArrayList<Diretor> diretores = new ArrayList<>();
+	private ArrayList<Professor> professores = new ArrayList<>();
+	
+	public void iniciar () {
+		
+	}
+}

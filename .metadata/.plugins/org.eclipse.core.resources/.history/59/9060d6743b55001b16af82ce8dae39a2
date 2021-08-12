@@ -1,0 +1,8 @@
+package filaatendimento;
+
+public class Main {
+	public static void main(String[] args) {
+		FilaAtendimento filaAtendimento = new FilaAtendimento();
+		filaAtendimento.iniciar();
+	}
+}

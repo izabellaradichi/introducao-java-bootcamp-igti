@@ -1,0 +1,18 @@
+package filaatendimento;
+
+import java.util.Queue;
+import java.util.Scanner;
+
+public class FilaAtendimento {
+	private Scanner scanner = new Scanner(System.in);
+	private Queue<String> fila = new LinkedList<>();
+	
+	
+	public void iniciar() {
+		
+
+	
+
+	}
+
+}
